@@ -1,0 +1,29 @@
+models:
+  - type: main
+    engine: openai
+    model: gpt-4o
+    api_key: ${OPENAI_API_KEY}
+
+rails:
+  config:
+    sensitive_data_detection:
+      input:
+        entities:
+          - PERSON
+          - EMAIL_ADDRESS
+          - PHONE_NUMBER
+          - CREDIT_CARD
+          - SSN
+      output:
+        entities:
+          - PERSON
+          - EMAIL_ADDRESS
+          - PHONE_NUMBER
+          - CREDIT_CARD
+          - SSN
+      actions:
+        on_detection:
+          - mask  # Masks detected PII
+          - replace_with_placeholder  # Ensures placeholders are used in LLM responses
+          - log  # Logs detected PII for debugging
+          - block_response_if_pii_detected  # Ensures Guardrails never returns unmasked PII

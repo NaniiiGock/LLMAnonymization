@@ -1,0 +1,4 @@
+# concrete-ml==1.5.0rc0
+gensim==4.3.2
+gradio
+openai==1.5.0

@@ -1,0 +1,97 @@
+{
+  "complexity": 1436,
+  "crtDecompositionsOfOutputs": [
+    []
+  ],
+  "globalPError": 4.2952655275407621e-13,
+  "memoryUsagePerLoc": {
+    "loc(\"/home/jfrery/fhenets_experiments/anonymization_exp/.venv/lib/python3.10/site-packages/concrete/ml/sklearn/base.py\":1723:0)": 11889936,
+    "loc(\"/home/jfrery/fhenets_experiments/anonymization_exp/.venv/lib/python3.10/site-packages/concrete/ml/sklearn/base.py\":1726:0)": 45984,
+    "loc(unknown)": 11496
+  },
+  "pError": 4.2952655275407621e-13,
+  "statistics": [
+    {
+      "count": 1024,
+      "keys": [
+        [
+          "SECRET",
+          0
+        ]
+      ],
+      "location": "loc(\"/home/jfrery/fhenets_experiments/anonymization_exp/.venv/lib/python3.10/site-packages/concrete/ml/sklearn/base.py\":1723:0)",
+      "operation": "CLEAR_MULTIPLICATION"
+    },
+    {
+      "count": 1024,
+      "keys": [
+        [
+          "SECRET",
+          0
+        ]
+      ],
+      "location": "loc(\"/home/jfrery/fhenets_experiments/anonymization_exp/.venv/lib/python3.10/site-packages/concrete/ml/sklearn/base.py\":1723:0)",
+      "operation": "ENCRYPTED_ADDITION"
+    },
+    {
+      "count": 1024,
+      "keys": [
+        [
+          "SECRET",
+          0
+        ]
+      ],
+      "location": "loc(\"/home/jfrery/fhenets_experiments/anonymization_exp/.venv/lib/python3.10/site-packages/concrete/ml/sklearn/base.py\":1723:0)",
+      "operation": "ENCRYPTED_ADDITION"
+    },
+    {
+      "count": 1,
+      "keys": [
+        [
+          "SECRET",
+          0
+        ]
+      ],
+      "location": "loc(\"/home/jfrery/fhenets_experiments/anonymization_exp/.venv/lib/python3.10/site-packages/concrete/ml/sklearn/base.py\":1723:0)",
+      "operation": "CLEAR_MULTIPLICATION"
+    },
+    {
+      "count": 1,
+      "keys": [
+        [
+          "SECRET",
+          0
+        ]
+      ],
+      "location": "loc(\"/home/jfrery/fhenets_experiments/anonymization_exp/.venv/lib/python3.10/site-packages/concrete/ml/sklearn/base.py\":1723:0)",
+      "operation": "ENCRYPTED_NEGATION"
+    },
+    {
+      "count": 1,
+      "keys": [
+        [
+          "SECRET",
+          0
+        ]
+      ],
+      "location": "loc(\"/home/jfrery/fhenets_experiments/anonymization_exp/.venv/lib/python3.10/site-packages/concrete/ml/sklearn/base.py\":1723:0)",
+      "operation": "ENCRYPTED_ADDITION"
+    },
+    {
+      "count": 1,
+      "keys": [
+        [
+          "SECRET",
+          0
+        ]
+      ],
+      "location": "loc(\"/home/jfrery/fhenets_experiments/anonymization_exp/.venv/lib/python3.10/site-packages/concrete/ml/sklearn/base.py\":1726:0)",
+      "operation": "CLEAR_ADDITION"
+    }
+  ],
+  "totalBootstrapKeysSize": 0,
+  "totalInputsSize": 11771904,
+  "totalKeyswitchKeysSize": 0,
+  "totalOutputsSize": 11496,
+  "totalSecretKeysSize": 11488
+}
